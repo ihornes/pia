@@ -4,7 +4,7 @@
     "subtitle1": "Una plataforma para crear el <br> y para manejar sus PIAs",
     "subtitle2": "Herramientas de acceso y glosarios",
     "start_app": "Acceda al software de PIA (Beta)",
-    "description": "Este software de la <strong>Autoridad Francesa de Protección de Datos (CNIL)</strong> está destinado a guiar a los controladores de datos en la construcción y demostración del cumplimiento de la GDPR. Ayuda a realizar correctamente una evaluación de impacto de protección de datos, facilitando el uso del método PIA desarrollado por el CNIL. ",
+    "description": "Este software de la <strong>Autoridad Francesa de Protección de Datos (CNIL)</strong> está destinado a guiar a los responsables del tratamiento en la construcción y demostración del cumplimiento de la RGPD. Ayuda a realizar correctamente una evaluación de impacto en protección de datos, facilitando la creación del PIA desarrollado por el CNIL. ",
     "start": "Empezar"
   },
   "header": {
@@ -14,9 +14,9 @@
     "knowledge_base_link": "Base de conocimientos",
     "pia_example_link": "Ejemplo de PIA",
     "languages": {
-      "official_translation": "TO BE TRANSLATED - Original version",
-      "cnil_translations": "TO BE TRANSLATED - CNIL provided translations",
-      "community_translations": "TO BE TRANSLATED - Community provided translations",
+      "official_translation": "Versión original",
+      "cnil_translations": "Traducciones proporcionadas por el CNIL",
+      "community_translations": "Traducciones proporcionadas por la comunidad",
       "fr": "Français",
       "en": "English",
       "cz": "Česky",
@@ -37,15 +37,15 @@
   "homepage": {
     "filters": {
       "list": "Lista",
-      "card": "tarjeta",
+      "card": "Ficha",
       "sort": "Ordenar",
       "sort_by": "por",
       "name": "Nombre",
       "date": "Fecha",
       "status": "Estado",
       "author": "Autor",
-      "assessor": "Revisor",
-      "validator": "Validador",
+      "assessor": "Revisado por",
+      "validator": "Validado por",
       "new_pia": "Nuevo PIA",
       "import_pia": "Importación PIA",
       "list_rocket_content": "¡Comencemos! Para iniciar <br>un PIA, haga clic en el +",
@@ -59,67 +59,67 @@
       "placeholder_import_pia": "Importación PIA",
       "title_close_creation": "Cerrar",
       "pia_name": "PIA",
-      "placeholder_pia_name": "Título del PIA",
+      "placeholder_pia_name": "Nombre del PIA",
       "author": "Corregir",
-      "placeholder_author": "Nombre, Apellido",
+      "placeholder_author": "Nombre y apellidos",
       "evaluation": "Revisión",
-      "placeholder_evaluation": "Nombre, Apellido",
+      "placeholder_evaluation": "Nombre y apellidos",
       "validation": "Validación",
-      "placeholder_validation": "Nombre, Apellido",
+      "placeholder_validation": "Nombre y apellidos",
       "date": "Fecha",
       "status": "Estado",
       "creation_status": "Creación",
-      "start": "Empezar",
-      "placeholder_start": "Todos los campos deben rellenarse",
+      "start": "Comenzar",
+      "placeholder_start": "Todos los campos son obligatorios",
       "item": {
         "tools": {
           "edit": "Editar la información",
           "export": "Exportar",
           "more_options": "Más opciones",
           "duplicate": "Duplicar",
-          "action_plan": "Mostrar<br>plan de acción",
+          "action_plan": "Mostrar<br>Plan de acción",
           "pia": "Mostrar<br>PIA",
-          "remove": "Borrar"
+          "remove": "Eliminiar"
         },
-        "edit_pia": "Corrija el PIA",
-        "consult_pia": "TO BE TRANSLATED - Consult PIA"
+        "edit_pia": "Editar PIA",
+        "consult_pia": "Consultar PIA"
       }
     },
     "lists": {
       "column_pia": "PIA",
-      "column_updated_at": "El último se abrió",
-      "column_author": "Corregir",
-      "column_evaluation": "Revisión",
-      "column_validation": "Validación",
+      "column_updated_at": "Último acceso",
+      "column_author": "Editado por",
+      "column_evaluation": "Revisado por",
+      "column_validation": "Validado por",
       "column_creation": "Creado",
       "column_status": "Estado",
       "column_progression": "Progreso",
       "column_actions": "Acciones",
       "item": {
         "tools": {
-          "consult": "TO BE TRANSLATED - Consult",
-          "edit": "Corrija",
+          "consult": "Consultar",
+          "edit": "Editar",
           "export": "Exportar",
           "duplicate": "Duplicar",
-          "action_plan": "Mostrar<br>plan de acción",
+          "action_plan": "Mostrar<br>Plan de acción",
           "pia": "Mostrar PIA",
-          "remove": "Borrar"
+          "remove": "Eliminar"
         }
       }
     }
   },
   "pia": {
     "statuses": {
-      "0": "En progreso",
+      "0": "En curso",
       "1": "Rechazado",
-      "2": "Simple validation",
-      "3": "Validación firmada",
+      "2": "Validado",
+      "3": "Validado y firmado",
       "4": "Archivado",
-      "5": "Esperando validación"
+      "5": "Validación pendiente"
     },
     "header": {
       "preview": "Vista Previa",
-      "display_action_plan": "Mostrar<br>plan de acción"
+      "display_action_plan": "Mostrar<br>Plan de acción"
     },
     "attachments": {
       "title": "Adjuntos",
@@ -129,33 +129,35 @@
     "sections": {
       "homepage_link": "Volver al Escritorio",
       "validate_pia": "Validar PIA",
-      "refuse_pia": "rechazó PIA",
+      "refuse_pia": "Rechazar PIA",
       "status": {
         "evaluation": {
-          "title": "",
-          "content": "",
-          "cancel": ""
+          "title": "Esperando por la revisión",
+          "content": "Esta parte aún no ha sido revisada. Si desea editar el contenido para su revisión, debe",
+          "cancel": "cancelar la solicitud de revisión."
+          "cancel_button": "Cancelar la solicitud de revisión"
         },
         "validation": {
-          "title": "",
-          "content": "",
-          "cancel": ""
+          "title": "Esperando por la validación",
+          "content": "Esta parte ha sido revisada y está esperando la validación general del PIA. Si desea cambiar la revisión, debe",
+          "cancel": "ancelar la solicitud de validación."
+          "cancel_button": "Cancelar la solicitud de validación"
         }
       }
     },
     "footer": {
-      "ask_evaluation": "Pide revisión",
+      "ask_evaluation": "Solicitar revisión",
       "validate_evaluation": "Validar revisión",
-      "subsection_validated": "Subsección revisado, en espera de validación final",
-      "mandatory_fields": "Todos los campos deben rellenarse"
+      "subsection_validated": "Subsección revisada, en espera de validación final",
+      "mandatory_fields": "Todos los campos son obligatorios"
     }
   },
   "measures": {
-    "placeholder_title": "Título de la medida",
-    "add": "Añadir una medida vacía (de lo contrario, utilice la base de conocimiento)",
-    "edit": "Editar medida",
+    "placeholder_title": "Nombre de la medida",
+    "add": "Añadir una medida en blanco (de lo contrario, utilice la base de conocimiento)",
+    "edit": "Editar la medida",
     "remove": "Eliminar la medida",
-    "default_placeholder": "Describir las medidas existentes o previstas para garantizar la seguridad de los datos."
+    "default_placeholder": "Describir la medida existente o prevista para garantizar la seguridad de los datos."
   },
   "knowledge_base": {
     "title": "Base de conocimientos",
@@ -163,43 +165,43 @@
     "add_measure": "Añadir",
     "placeholder_help": "Ayudas de entrada",
     "placeholder_add_measure": "Añadir esta medida",
-    "add_measure_hint": "Usted también puede Añadir una medida de la base de conocimientos.",
+    "add_measure_hint": "Usted también puedea añadir una medida de la base de conocimientos.",
     "filters": {
       "title": "Filtros",
       "all": "Todos",
       "definitions": "Definiciones",
-      "organizational_measures": "Medidas de la organización",
+      "organizational_measures": "Controles organizativos",
       "measures_on_data": "Controles de seguridad lógicos",
       "general_measures": "Controles de seguridad física",
-      "no_result": "No se han encontrado resultados."
+      "no_result": "Sin resultados."
     },
     "category": {
       "definition": "Definición",
       "principle": "Principio",
-      "organizational_measure": "Medidas de la organización",
+      "organizational_measure": "Controles organizativos",
       "measure_on_data": "Controles de seguridad lógicos",
       "general_measure": "Controles de seguridad física",
       "example": "Ejemplo"
     },
     "slugs": {
       "PIA_LGL_FOND": {
-        "name": "Justificación de la legalidad",
-        "description": "-El interesado ha dado su consentimiento al tratamiento de sus datos personales para uno o más propósitos específicos<br>-Es necesario para la ejecución de un contrato en el que el interesado sea parte o para tomar medidas a petición del interesado antes de entrar en un contrato<br>-Es necesario para el cumplimiento de una obligación legal para que el controlador está sujeto<br>-Es necesario para proteger a los intereses vitales del interesado o de otra persona natural<br>-Es necesario para el desempeño de una misión de interés público o en el ejercicio del poder público conferido al responsable del<br>-Procesamiento es necesario para los propósitos de los intereses legítimos perseguidos por el controlador o por un tercero, excepto donde tales intereses son reemplazadas por los intereses o derechos y libertades fundamentales del interesado que requieran protección de datos personales, en particular donde el interesado es un niño<br>Ver <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32016R0679&from=ES\">art. 6 de [GDPR]</a>",
+        "name": "Justificación legal",
+        "description": "- El interesado ha dado su consentimiento para el tratamiento de sus datos personales para uno o más fines específicos<br>- El tratamiento forma parte de los pasos previos o necesarios para la ejecución de un contrato en el que el interesado es parte.<br>- El tratamiento es necesario para dar cumplimiento a una obligación legal a la que el responsable del tratamiento está sujeto<br>- El tratamiento es necesario para proteger a los intereses vitales del interesado o de otra persona física.<br>- El tratamiento es necesario para el desempeño de una misión de interés público o en el ejercicio del poder público conferido al responsable del tratamiento<br>- El tratamiento es necesario para los intereses legítimos que persigue el responsable del tratamiento o un tercero, a menos que los intereses o los derechos fundamentales y libertades del interesado requieran la protección de los datos de carácter personal, en particular cuando la persona interesada es un niño.<br>Ver <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32016R0679&from=ES\">art. 6 de [GDPR]</a>",
         "source": "PIA2 p4"
       },
       "PIA_LGL_ST": {
         "name": "Subcontratación",
-        "description": "Un contrato de procesamiento debe ser firmado con cada procesador, estableciendo todos los aspectos estipulados en el arte. 28 de [GDPR]: duración, alcance, propósito, instrucciones de proceso documentado, previa autorización que un procesador se dedica, provisión de cualquier documentación que evidencia del cumplimiento de la [GDPR], notificación inmediata de cualquier violación de los datos, etcetera. ",
+        "description": "Se deberá realizar un contrato de delegación del tratamiento con cada encargado del tratamiento, especificando todos los elementos previstos en el art. 28 del RGPD: duración, alcance, propósito, instrucciones para el tratamiento, autorización previa en caso de uso de subcontratación, disponibilidad y acceso a la documentación que proporcione evidencia del cumplimiento con el RGPD, notificación inmediata de brechas o violación de datos, etc. ",
         "source": "PIA2 p10"
       },
       "PIA_LGL_TRAN": {
-        "name": "Transferencias",
-        "description": "Dependiendo del país en la pregunta, usted tendrá que justificar la opción del telecontrol que recibe e indicar los arreglos legales de la supervisión puestos en ejecución para asegurar la protección adecuada de los datos conforme a una transferencia fronteriza. Eso es:<br>- Unión Europea<br>- reconocido como abastecimiento de la protección adecuada por la transferencia de EU<br>- a los Estados Unidos a una compañía que ha ensamblado la Privacy Shield<br>- el otro país<br>Ver<a target=\" _blank \" href= \"http://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32016R0679&from=ES\">art. 44 a 49 de [GDPR]</a>",
+        "name": "Transferencias internacionales",
+        "description": "Se deberá detallar la ubicación geográfica de los lugares donde se realizar el tratamiento. Dependiendo del país en cuestión, se deberá justificar la elección del alojamiento fuera de la Unión Europea e indicar el marco legal implementado para garantizar la protección adecuada de los datos sujetos a transferencia transfronteriza.<br> Indicando si es:<br>- Unión Europea<br>-Un país reconocido como adecuado por la Unión Europea<br>- Estados Unidos, compañía adherida al Privacy Shield<br>-Otro país<br>Ver<a target=\" _blank \" href= \"http://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32016R0679&from=ES\">art. 44 a 49 de [GDPR]</a>",
         "source": "PIAF Connected Objects p18"
       },
       "PIA_LGL_DESC": {
-        "name": "Descripción del proceso",
-        "description": "Presente un breve resumen del procesamiento que se está considerando, su naturaleza, alcance, contexto, propósitos y riesgos. Identifica el controlador de datos y cualquier procesador. Enumere las referencias estándar aplicables al procesamiento, que son necesarias o deben cumplirse, no menos los códigos de conducta aprobados (ver Art. 40 de la <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32016R0679&from=ES\">[GDPR]</a> ) y las certificaciones relacionadas con la protección de datos (ver Art. 42 de la <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32016R0679&from=ES\">[GDPR] ]</a>) ",
+        "name": "Descripción del tratamiento",
+        "description": "Describir brevemente el tratamiento que se está evaluando: naturaleza, alcance, contexto, propósitos y riesgos. Identificar al responsable y encargados del tratamiento. Identificar las normas aplicables al tratamiento, que sean necesarias o deban cumplirse,en particular, los códigos de conducta aprobados por el regulador. (ver Art. 40 de la <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32016R0679&from=ES\">[GDPR]</a> ) y las certificaciones relacionadas con la protección de datos (ver Art. 42 de la <a target=\"_blank\" href=\"http://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32016R0679&from=ES\">[GDPR] ]</a>) ",
         "source": "PIA1 p4"
       },
       "PIA_LGL_DATA": {
